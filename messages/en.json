@@ -1,0 +1,54 @@
+{
+  "Common": {
+    "loading": "Loading...",
+    "error": "Error loading data",
+    "noData": "No data found"
+  },
+  "Layout": {
+    "appName": "NexusStore",
+    "welcome": "Welcome, User!",
+    "logout": "Logout",
+    "nav": {
+      "products": "Products",
+      "settings": "Settings"
+    }
+  },
+  "Home": {
+    "title": "Modern Shopping Experience",
+    "description": "Discover a curated collection of premium products with our lightning-fast, secure, and intuitive e-commerce platform.",
+    "exploreCta": "Start Shopping",
+    "viewCollections": "View Collections",
+    "newCollectionBadge": "New Summer Collection",
+    "features": {
+      "shippingTitle": "Fast Shipping",
+      "shippingDesc": "Get your premium products delivered to your doorstep with lightning speed across the globe.",
+      "qualityTitle": "Curated Quality",
+      "qualityDesc": "Every item in our collection is handpicked and verified for the highest quality standards.",
+      "securityTitle": "Secure Payments",
+      "securityDesc": "Your transactions are protected by industry-leading encryption and multi-layer security."
+    },
+    "stats": {
+      "customersTitle": "Happy Customers",
+      "customersDesc": "Growth of 12% this month",
+      "itemsTitle": "Premium Items",
+      "itemsDesc": "↗︎ 40 (2%)",
+      "storesTitle": "Global Stores",
+      "storesDesc": "In over 45 countries"
+    }
+  },
+  "Products": {
+    "title": "Products List",
+    "addToCart": "Add to Cart"
+  },
+  "Login": {
+    "title": "Login",
+    "subtitle": "Please authenticate to continue.",
+    "username": "Username",
+    "password": "Password",
+    "signIn": "Sign In",
+    "signingIn": "Signing in...",
+    "invalidCredentials": "Invalid credentials",
+    "hintTitle": "Sign in to your account",
+    "hintTry": "Experience seamless localization"
+  }
+}

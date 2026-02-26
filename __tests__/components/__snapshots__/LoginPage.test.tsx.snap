@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`LoginPage should match snapshot 1`] = `
+<div>
+  <div
+    class="hero min-h-screen bg-base-200 py-12 px-4"
+  >
+    <div
+      class="hero-content flex-col lg:flex-row gap-16 lg:gap-32 w-full max-w-6xl"
+    >
+      <div
+        class="text-center lg:text-left"
+      >
+        <h1
+          class="text-5xl lg:text-7xl font-black tracking-tight mb-6"
+          data-testid="login-page-title"
+        >
+          hintTitle
+        </h1>
+        <p
+          class="text-lg lg:text-xl opacity-70 mb-10 max-w-lg mx-auto lg:mx-0 leading-relaxed"
+          data-testid="login-page-subtitle"
+        >
+          <span
+            data-testid="login-page-hint"
+          >
+            hintTry
+          </span>
+          . Join thousands of customers enjoying the best shopping experience at NexusStore.
+        </p>
+        <div
+          class="flex flex-wrap gap-4 justify-center lg:justify-start"
+        >
+          <div
+            class="badge badge-lg badge-primary py-4 px-6 font-bold uppercase tracking-widest text-xs"
+          >
+            Professional
+          </div>
+          <div
+            class="badge badge-lg badge-secondary badge-outline py-4 px-6 font-bold uppercase tracking-widest text-xs"
+          >
+            Secure
+          </div>
+          <div
+            class="badge badge-lg badge-accent badge-outline py-4 px-6 font-bold uppercase tracking-widest text-xs"
+          >
+            Global
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full flex justify-center"
+      >
+        <div
+          data-testid="mock-login-form"
+        >
+          Mocked Login Form
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`LoginForm Component should match snapshot 1`] = `
+<div>
+  <div
+    class="card bg-base-100 w-full max-w-md shadow-2xl border border-base-200"
+  >
+    <form
+      class="card-body p-8 lg:p-10"
+      data-testid="login-form"
+    >
+      <h2
+        class="card-title text-3xl font-black mb-6 justify-center uppercase tracking-tight"
+      >
+        title
+      </h2>
+      <div
+        class="form-control"
+      >
+        <label
+          class="label"
+          for="username"
+        >
+          <span
+            class="label-text font-bold text-base uppercase tracking-wide opacity-70"
+          >
+            username
+          </span>
+        </label>
+        <div
+          class="relative"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-user absolute left-4 top-1/2 -translate-y-1/2 opacity-30"
+            fill="none"
+            height="18"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+            />
+            <circle
+              cx="12"
+              cy="7"
+              r="4"
+            />
+          </svg>
+          <input
+            class="input input-bordered w-full pl-12 focus:input-primary"
+            data-testid="username-input"
+            id="username"
+            placeholder="Enter username"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="form-control mt-4"
+      >
+        <label
+          class="label"
+          for="password"
+        >
+          <span
+            class="label-text font-bold text-base uppercase tracking-wide opacity-70"
+          >
+            password
+          </span>
+        </label>
+        <div
+          class="relative"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-lock absolute left-4 top-1/2 -translate-y-1/2 opacity-30"
+            fill="none"
+            height="18"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              height="11"
+              rx="2"
+              ry="2"
+              width="18"
+              x="3"
+              y="11"
+            />
+            <path
+              d="M7 11V7a5 5 0 0 1 10 0v4"
+            />
+          </svg>
+          <input
+            class="input input-bordered w-full pl-12 focus:input-primary"
+            data-testid="password-input"
+            id="password"
+            placeholder="Enter password"
+            required=""
+            type="password"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="form-control mt-10"
+      >
+        <button
+          class="btn btn-primary btn-md btn-primary h-14 text-lg font-bold shadow-lg"
+          data-testid="login-submit-button"
+          type="submit"
+        >
+          signIn
+        </button>
+      </div>
+      <div
+        class="divider mt-10 opacity-30 uppercase text-xs font-bold tracking-widest"
+      >
+        Demo Access
+      </div>
+      <div
+        class="bg-base-200 rounded-xl p-4 flex justify-center gap-6 text-sm"
+      >
+        <div
+          class="flex flex-col items-center"
+        >
+          <span
+            class="opacity-40 uppercase text-[10px] font-bold"
+          >
+            User
+          </span>
+          <span
+            class="font-mono font-bold"
+          >
+            admin
+          </span>
+        </div>
+        <div
+          class="w-[1px] bg-base-300"
+        />
+        <div
+          class="flex flex-col items-center"
+        >
+          <span
+            class="opacity-40 uppercase text-[10px] font-bold"
+          >
+            Pass
+          </span>
+          <span
+            class="font-mono font-bold"
+          >
+            password
+          </span>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;

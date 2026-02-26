@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ProductCard Component should match snapshot 1`] = `
+<div>
+  <div
+    class="card bg-base-100 shadow-xl border border-base-200 h-full hover:shadow-2xl transition-all"
+    data-testid="product-card"
+  >
+    <figure
+      class="aspect-square p-6 bg-base-200"
+    >
+      <img
+        alt="Test Product"
+        class="max-h-full max-w-full object-contain mix-blend-multiply"
+        src="https://test.com/image.jpg"
+      />
+    </figure>
+    <div
+      class="card-body p-6 flex flex-col justify-between"
+    >
+      <div>
+        <div
+          class="badge badge-secondary badge-outline mb-2 text-[10px] font-bold uppercase tracking-widest"
+        >
+          Test Category
+        </div>
+        <h3
+          class="card-title text-base leading-tight line-clamp-2 min-h-[3rem]"
+          data-testid="product-title"
+          title="Test Product"
+        >
+          Test Product
+        </h3>
+      </div>
+      <div
+        class="card-actions justify-between items-center mt-6"
+      >
+        <span
+          class="text-2xl font-black text-primary"
+          data-testid="product-price"
+        >
+          $
+          99.99
+        </span>
+        <button
+          class="btn btn-primary btn-sm btn-square w-auto px-4"
+          data-testid="add-to-cart-button"
+        >
+          addToCart
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

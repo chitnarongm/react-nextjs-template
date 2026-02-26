@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ProductList Component should match snapshot when rendering products 1`] = `
+<div>
+  <div
+    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+    data-testid="product-list"
+    role="list"
+  >
+    <div
+      role="listitem"
+    >
+      <div
+        class="card bg-base-100 shadow-xl border border-base-200 h-full hover:shadow-2xl transition-all"
+        data-testid="product-card"
+      >
+        <figure
+          class="aspect-square p-6 bg-base-200"
+        >
+          <img
+            alt="Product 1"
+            class="max-h-full max-w-full object-contain mix-blend-multiply"
+            src="img1.jpg"
+          />
+        </figure>
+        <div
+          class="card-body p-6 flex flex-col justify-between"
+        >
+          <div>
+            <div
+              class="badge badge-secondary badge-outline mb-2 text-[10px] font-bold uppercase tracking-widest"
+            >
+              Category 1
+            </div>
+            <h3
+              class="card-title text-base leading-tight line-clamp-2 min-h-[3rem]"
+              data-testid="product-title"
+              title="Product 1"
+            >
+              Product 1
+            </h3>
+          </div>
+          <div
+            class="card-actions justify-between items-center mt-6"
+          >
+            <span
+              class="text-2xl font-black text-primary"
+              data-testid="product-price"
+            >
+              $
+              10.00
+            </span>
+            <button
+              class="btn btn-primary btn-sm btn-square w-auto px-4"
+              data-testid="add-to-cart-button"
+            >
+              addToCart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      role="listitem"
+    >
+      <div
+        class="card bg-base-100 shadow-xl border border-base-200 h-full hover:shadow-2xl transition-all"
+        data-testid="product-card"
+      >
+        <figure
+          class="aspect-square p-6 bg-base-200"
+        >
+          <img
+            alt="Product 2"
+            class="max-h-full max-w-full object-contain mix-blend-multiply"
+            src="img2.jpg"
+          />
+        </figure>
+        <div
+          class="card-body p-6 flex flex-col justify-between"
+        >
+          <div>
+            <div
+              class="badge badge-secondary badge-outline mb-2 text-[10px] font-bold uppercase tracking-widest"
+            >
+              Category 2
+            </div>
+            <h3
+              class="card-title text-base leading-tight line-clamp-2 min-h-[3rem]"
+              data-testid="product-title"
+              title="Product 2"
+            >
+              Product 2
+            </h3>
+          </div>
+          <div
+            class="card-actions justify-between items-center mt-6"
+          >
+            <span
+              class="text-2xl font-black text-primary"
+              data-testid="product-price"
+            >
+              $
+              20.00
+            </span>
+            <button
+              class="btn btn-primary btn-sm btn-square w-auto px-4"
+              data-testid="add-to-cart-button"
+            >
+              addToCart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
