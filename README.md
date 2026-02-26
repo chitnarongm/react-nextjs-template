@@ -1,6 +1,6 @@
-# NexusStore - Modern E-commerce Template
+# React NextjsTemplate
 
-A high-performance, accessible, and localized e-commerce template built with Next.js, React, and daisyUI.
+A high-performance, accessible, and localized template built with Next.js, React, and daisyUI.
 
 ## Features
 

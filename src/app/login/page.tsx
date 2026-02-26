@@ -20,9 +20,7 @@ export default function LoginPage() {
             data-testid="login-page-subtitle"
             className="text-lg lg:text-xl opacity-70 mb-10 max-w-lg mx-auto lg:mx-0 leading-relaxed"
           >
-            <span data-testid="login-page-hint">{t("hintTry")}</span>. Join
-            thousands of customers enjoying the best shopping experience at
-            NexusStore.
+            <span data-testid="login-page-hint">{t("hintTry")}</span>
           </p>
           <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
             <div className="badge badge-lg badge-primary py-4 px-6 font-bold uppercase tracking-widest text-xs">

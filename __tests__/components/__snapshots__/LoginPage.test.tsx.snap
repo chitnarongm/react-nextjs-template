@@ -26,7 +26,6 @@ exports[`LoginPage should match snapshot 1`] = `
           >
             hintTry
           </span>
-          . Join thousands of customers enjoying the best shopping experience at NexusStore.
         </p>
         <div
           class="flex flex-wrap gap-4 justify-center lg:justify-start"
