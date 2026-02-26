@@ -1,4 +1,4 @@
-# React NextjsTemplate
+# React Next.js Template
 
 A high-performance, accessible, and localized template built with Next.js, React, and daisyUI.
 
